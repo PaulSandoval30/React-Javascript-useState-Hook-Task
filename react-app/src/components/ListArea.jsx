@@ -15,6 +15,7 @@ function ListArea({ todos, setTodos }) {
   return (
     <>
       <div className="list-panel">
+        {todos.length === 0 && <h2 className="empty-list-label">No tasks added yet.</h2>}
         {todos.map((todo, index) => (
           <div className="task" key={index}>
             <div className="checkbox-list-wrapper">

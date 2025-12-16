@@ -6,6 +6,7 @@
   height: 100%;
   padding: .5em 1.5em .5em .5em;
   overflow-y: auto;
+  position: relative;
 }
 
 .list-panel .task {
