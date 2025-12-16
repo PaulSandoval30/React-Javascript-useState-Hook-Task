@@ -1,0 +1,50 @@
+.input-panel {
+  flex: 1 1 0;
+  padding-inline: 3em;
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.input-panel h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2.4em;
+}
+
+.input-group {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  margin-top: 2em;
+}
+
+.input-group input[type="text"] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 5em 0 0.9em;
+  font-size: 0.9rem;
+}
+
+.add-task-btn {
+  width: 100%;
+  padding-block: 1.3em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 2em;
+  border-radius: 5px;
+  background-color: rgb(39, 39, 39);
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  color: white;
+}
+
+.add-task-btn:hover {
+  background-color: rgb(73, 73, 73);
+}
+
+.add-task-btn:active {
+  background-color: rgb(53, 53, 53);
+  transition: none;
+}
