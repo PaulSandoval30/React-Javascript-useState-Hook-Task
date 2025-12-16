@@ -50,6 +50,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .task .checkbox-list-wrapper .custom-checkbox > * {
@@ -73,7 +74,6 @@
 .task .checkbox-list-wrapper input[type="checkbox"]:checked ~ .custom-checkbox {
   background-color: lime;
   border-color: lime;
-  transition: all 0.3s ease;
 }
 
 .task .checkbox-list-wrapper input[type="checkbox"]:checked ~ .custom-checkbox ~ .task-name {
