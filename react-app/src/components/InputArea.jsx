@@ -9,7 +9,6 @@ function InputArea({ addTodo }) {
   const handleAddTodo = () => {
     addTodo(task);
     setTask("");
-    
   };
   return (
     <>

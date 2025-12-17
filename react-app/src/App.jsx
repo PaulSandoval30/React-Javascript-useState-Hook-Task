@@ -19,7 +19,7 @@ function App() {
         <div className="main-content">
           <div className="header">
             <h1>ToDo List</h1>
-            <h4>React Javascript useState Hook Training</h4>
+            <h4>React Javascript useState Hook</h4>
           </div>
           <div className="wrapper">
             <ListArea todos={todos} setTodos={setTodos} />
